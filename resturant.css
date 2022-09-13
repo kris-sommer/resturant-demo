@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* Header*/
+
+.section-one {
+    position: relative;
+}
+
+.section-one:before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url(./layout-photos/steak-cooked-top.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    position: absolute;
+    z-index: -1;
+    transform: scaleX(-1);
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+}
+
+nav a {
+    color: #FAF9F6;
+    text-decoration: none;
+}
+
+.shopping-cart {
+    background-image: url('./layout-photos/shopping-cart.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+.magnifying-glass {
+    /* border: 1px solid black; */
+    width: 30px;
+    height: 30px;
+    background-image: url(./layout-photos//magnifying-glass.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome {
+    margin-left: 60px;
+}
+
+
+/* First Section  */
+
+.welcome h1 {
+    font-size: 70px;
+    color: #FAF9F6;
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+.welcome input {
+    width: 40%;
+    padding: 10px 20px;
+}
+
+.welcome a {
+    background: rgb(240, 141, 52);
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.welcome .social-media {
+    display: flex;
+}
+
+.social-media-info {
+    display: flex;
+    flex-direction: row;
+    padding-right: 65px;
+    padding-top: 20px;
+    color: white;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.welcome .social {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.welcome .face-book {
+    background-image: url(./layout-photos/facebook.svg);
+}
+
+.welcome .twitter {
+    background-image: url(./layout-photos/twitter.svg);
+}
+
+.welcome .instagram {
+    background-image: url(./layout-photos/instagram.svg);
+}
+
+
+/* Section Two */
+
+.section-two {
+    display: flex;
+    background-color: #f8f8ff;
+    display: flex;
+    margin-top: 15px;
+    gap: 50px;
+}
+
+.photo-contain {
+    background-image: url(./layout-photos/maestro-steak.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.sec-two-contain {
+    padding-bottom: 75px;
+    width: 50%;
+    padding-right: 25px;
+}
+
+.about-us {
+    color: rgb(240, 141, 52);
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+
+.section-two h2 {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.section-two p {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+.section-two a {
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+    background: rgb(240, 141, 52);
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+
+/* Section Three */
+
+.section-three {
+    background: #fff;
+}
+
+.section-three .order-online {
+    color: rgb(240, 141, 52);
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.section-three h3 {
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+
+.meal-time {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+}
+
+.meal-time a {
+    text-decoration: none;
+}
+
+.food-pics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.food-pics div {
+    width: calc(25% - 7.5px);
+    height: 300px;
+}
+
+.pic1 {
+    background-image: url(./layout-photos/steak-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic2 {
+    background-image: url(./layout-photos/steak-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.pic3 {
+    background-image: url(./layout-photos/steak-3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic4 {
+    background-image: url(./layout-photos/steak-4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic5 {
+    background-image: url(./layout-photos/steak-5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic6 {
+    background-image: url(./layout-photos/steak-6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic7 {
+    background-image: url(./layout-photos/steak-7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic8 {
+    background-image: url(./layout-photos/steak-8.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section Four */
+
+.section-four {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f8f8ff;
+}
+
+.book-table {
+    color: rgb(240, 141, 52);
+}
+
+.open-hours {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.food-video {
+    max-width: 740px;
+    margin: 0 auto;
+    background-image: url(./layout-photos/hours-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food-video .place-holder {
+    width: 100%;
+    padding-top: 50%;
+}
+
+/* section five */
+
+.section-five {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.checked {
+    color: orange;
+  }
+
+.pic {
+    background-image: url(./layout-photos/customer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.pic-container {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial {
+    font-style: italic;
+    padding-top: 30px;
+    display: flex;
+    align-content: center;
+    max-width: 505px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 850px) {
+    nav {
+        display: none;
+    }
+    .welcome {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .welcome h1 {
+        font-size: 30px;
+    }
+    .welcome input {
+        display: none;
+    }
+    .social-media {
+        flex-flow: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .social-media-info {
+        justify-content: center;
+    }
+    .photo-contain {
+        display: none;
+    }
+
+    /* section two */
+    .section-two {
+        justify-content: center;
+    }
+    .section-two h2 {
+        font-size: 30px;
+    }
+    .meal-time {
+        flex-flow: column;
+        gap: 10px;
+    }
+    .meal-time a {
+        margin: 0 auto;
+    }
+
+    .food-pics div {
+        margin: 0 auto;
+        width: calc(50% - 7.7px);
+    }
+    .section-three h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    /* .about-us {
+        display: none;
+    } */
+    /* .sec-two-contain p {
+        display: none;
+    } */
+}
